@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>MavenCMD1</groupId>
+	<artifactId>MavenCMD1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>MavenCMD1</name>
+
+	<properties>
+		<TestNG.version>7.5</TestNG.version>
+	</properties>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId> <!-- Requires for mvn compile/install-->
+				<version>3.10.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId> <!-- Requires for mvn test-->
+				<version>3.0.0-M5</version>
+				<configuration>
+					<suiteXmlFiles>
+						<!-- <suiteXmlFile>smoke.xml</suiteXmlFile> -->
+						<!--<suiteXmlFile>regression.xml</suiteXmlFile> -->
+						<!-- <suiteXmlFile>master.xml</suiteXmlFile>-->
+
+						<!-- any variable name here,then mvn cmd will be: mvn test -DtestngFile=master.xml -->
+							 <suiteXmlFile>${testngFile}</suiteXmlFile> 
+
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId> <!-- configure the resources to be copied, and specify the outputDirectory-->
+				<version>3.2.0</version>
+				<executions>
+					<execution>
+						<id>copy-resources-1</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target/blah</outputDirectory>
+							<resources>
+								<resource>
+									<directory>blah</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${TestNG.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>
