@@ -10,7 +10,7 @@ public class demo2Test {
 		Assert.assertTrue(true);
 	}
 	
-	@Test(groups = {"regression"})  //mentioned test group
+	@Test(groups = {"regression"}) 
 	public void example4() {
 		System.out.println("### Output4 ###");
 	}
