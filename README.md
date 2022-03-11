@@ -1,2 +1,2 @@
 # Software-Test-Automation
-Test automation with Java
+Test automation with Java, Maven and TestNG
