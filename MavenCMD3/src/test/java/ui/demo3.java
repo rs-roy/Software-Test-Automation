@@ -12,6 +12,6 @@ public class demo3 {
 	
 	@Test(groups = {"regression"}) 		// mentioning test group
 	public void example6() {
-		System.out.println("### Output6 ###");
+		System.out.println("#### Output6 ####");
 	}
 }

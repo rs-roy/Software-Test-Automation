@@ -1,65 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-11T00:45:40 CET" name="Smoke Suite" finished-at="2022-03-11T00:45:40 CET" duration-ms="52">
+  <suite started-at="2022-03-12T23:01:18 CET" name="Smoke Suite" finished-at="2022-03-12T23:01:18 CET" duration-ms="37">
     <groups>
       <group name="regression">
-        <method signature="demo2Test.example4()[pri:0, instance:ui.demo2Test@6a01e23]" name="example4" class="ui.demo2Test"/>
+        <method signature="demo2Test.example4()[pri:0, instance:ui.demo2Test@4b44655e]" name="example4" class="ui.demo2Test"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2022-03-11T00:45:40 CET" name="Smoke Test" finished-at="2022-03-11T00:45:40 CET" duration-ms="52">
+    <test started-at="2022-03-12T23:01:18 CET" name="Smoke Test" finished-at="2022-03-12T23:01:18 CET" duration-ms="37">
       <class name="ui.demo1Test">
-        <test-method signature="example1()[pri:0, instance:ui.demo1Test@10db82ae]" started-at="2022-03-11T00:45:40 CET" name="example1" finished-at="2022-03-11T00:45:40 CET" duration-ms="6" status="PASS">
+        <test-method signature="example1()[pri:0, instance:ui.demo1Test@4f638935]" started-at="2022-03-12T23:01:18 CET" name="example1" finished-at="2022-03-12T23:01:18 CET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example1 -->
-        <test-method signature="example2()[pri:0, instance:ui.demo1Test@10db82ae]" started-at="2022-03-11T00:45:40 CET" name="example2" finished-at="2022-03-11T00:45:40 CET" duration-ms="0" status="PASS">
+        <test-method signature="example2()[pri:0, instance:ui.demo1Test@4f638935]" started-at="2022-03-12T23:01:18 CET" name="example2" finished-at="2022-03-12T23:01:18 CET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example2 -->
       </class> <!-- ui.demo1Test -->
       <class name="ui.demo2Test">
-        <test-method signature="example3()[pri:0, instance:ui.demo2Test@6a01e23]" started-at="2022-03-11T00:45:40 CET" name="example3" finished-at="2022-03-11T00:45:40 CET" duration-ms="0" status="PASS">
+        <test-method signature="example3()[pri:0, instance:ui.demo2Test@4b44655e]" started-at="2022-03-12T23:01:18 CET" name="example3" finished-at="2022-03-12T23:01:18 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example3 -->
-        <test-method signature="example4()[pri:0, instance:ui.demo2Test@6a01e23]" started-at="2022-03-11T00:45:40 CET" name="example4" finished-at="2022-03-11T00:45:40 CET" duration-ms="0" status="PASS">
+        <test-method signature="example4()[pri:0, instance:ui.demo2Test@4b44655e]" started-at="2022-03-12T23:01:18 CET" name="example4" finished-at="2022-03-12T23:01:18 CET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- example4 -->
       </class> <!-- ui.demo2Test -->
     </test> <!-- Smoke Test -->
   </suite> <!-- Smoke Suite -->
-  <suite started-at="2022-03-11T00:45:40 CET" name="Master Suite" finished-at="2022-03-11T00:45:40 CET" duration-ms="0">
-    <groups>
-    </groups>
-  </suite> <!-- Master Suite -->
-  <suite started-at="2022-03-11T00:45:40 CET" name="Regression Suite" finished-at="2022-03-11T00:45:40 CET" duration-ms="4">
-    <groups>
-      <group name="regression">
-        <method signature="demo2Test.example4()[pri:0, instance:ui.demo2Test@d4342c2]" name="example4" class="ui.demo2Test"/>
-        <method signature="demo3.example5()[pri:0, instance:ui.demo3@2bbf180e]" name="example5" class="ui.demo3"/>
-        <method signature="demo3.example6()[pri:0, instance:ui.demo3@2bbf180e]" name="example6" class="ui.demo3"/>
-      </group> <!-- regression -->
-    </groups>
-    <test started-at="2022-03-11T00:45:40 CET" name="Functional Testing" finished-at="2022-03-11T00:45:40 CET" duration-ms="4">
-      <class name="ui.demo3">
-        <test-method signature="example5()[pri:0, instance:ui.demo3@2bbf180e]" started-at="2022-03-11T00:45:40 CET" name="example5" finished-at="2022-03-11T00:45:40 CET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- example5 -->
-        <test-method signature="example6()[pri:0, instance:ui.demo3@2bbf180e]" started-at="2022-03-11T00:45:40 CET" name="example6" finished-at="2022-03-11T00:45:40 CET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- example6 -->
-      </class> <!-- ui.demo3 -->
-      <class name="ui.demo2Test">
-        <test-method signature="example4()[pri:0, instance:ui.demo2Test@d4342c2]" started-at="2022-03-11T00:45:40 CET" name="example4" finished-at="2022-03-11T00:45:40 CET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- example4 -->
-      </class> <!-- ui.demo2Test -->
-    </test> <!-- Functional Testing -->
-  </suite> <!-- Regression Suite -->
 </testng-results>
