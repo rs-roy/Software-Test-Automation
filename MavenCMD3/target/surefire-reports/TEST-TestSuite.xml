@@ -1,80 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.442" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.346" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Zico\Git_Repo\Software-Test-Automation\MavenCMD3\target\test-classes;C:\Zico\Git_Repo\Software-Test-Automation\MavenCMD3\target\classes;C:\Users\ranjo\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\ranjo\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\ranjo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ranjo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ranjo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.vendor" value="Eclipse Foundation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vm.specification.version" value="16"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\ranjo\AppData\Local\Temp\surefire5414438254045011907\surefirebooter11058216713339379870.jar C:\Users\ranjo\AppData\Local\Temp\surefire5414438254045011907 2022-03-12T23-01-17_911-jvmRun1 surefire6015214300872290229tmp surefire_01910363046502260191tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\ranjo\AppData\Local\Temp\surefire15295504138268788510\surefirebooter8266219620042226981.jar C:\Users\ranjo\AppData\Local\Temp\surefire15295504138268788510 2022-09-29T01-21-46_326-jvmRun1 surefire6220258612106845402tmp surefire_01886296875719757055tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="testngFile" value="smoke.xml"/>
+    <property name="testngFile" value="regression.xml"/>
     <property name="surefire.test.class.path" value="C:\Zico\Git_Repo\Software-Test-Automation\MavenCMD3\target\test-classes;C:\Zico\Git_Repo\Software-Test-Automation\MavenCMD3\target\classes;C:\Users\ranjo\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\ranjo\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\ranjo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\ranjo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ranjo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ranjo"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-10-19"/>
-    <property name="java.home" value="C:\Program Files (x86)\Java\jdk-17.0.1"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk-16.0.2"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Zico\Git_Repo\Software-Test-Automation\MavenCMD3"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ranjo\AppData\Local\Temp\surefire5414438254045011907\surefirebooter11058216713339379870.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ranjo\AppData\Local\Temp\surefire15295504138268788510\surefirebooter8266219620042226981.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="java.runtime.version" value="16.0.2+7"/>
     <property name="user.name" value="ranjo"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-16.0.2+7"/>
     <property name="localRepository" value="C:\Users\ranjo\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\ranjo\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.1"/>
+    <property name="java.version" value="16.0.2"/>
     <property name="user.dir" value="C:\Zico\Git_Repo\Software-Test-Automation\MavenCMD3"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\jdk-17.0.1\bin;C:\Users\ranjo\AppData\Local\Programs\Python\Python39;C:\Users\ranjo\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files (x86)\maven\apache-maven-3.8.4\bin;C:\Users\ranjo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ranjo\AppData\Local\Programs\Python\Python39\;C:\Users\ranjo\AppData\Local\Microsoft\WindowsApps;C:\Users\ranjo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ranjo\AppData\Local\Programs\Python\Python39;C:\Users\ranjo\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files (x86)\maven\apache-maven-3.8.4\bin;C:\Program Files (x86)\Java\jdk-16.0.2\bin;C:\Users\ranjo\Downloads\ant\bin;C:\Users\ranjo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ranjo\AppData\Local\Programs\Python\Python39\;C:\Users\ranjo\AppData\Local\Microsoft\WindowsApps;C:\Users\ranjo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="java.vendor" value="Eclipse Foundation"/>
+    <property name="java.vm.version" value="16.0.2+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="example1" classname="ui.demo1Test" time="0.005">
-    <system-out><![CDATA[### Output1 ###
+  <testcase name="example4" classname="ui.demo2Test" time="0.002">
+    <system-out><![CDATA[### Output4 ###
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="example2" classname="ui.demo1Test" time="0">
-    <system-out><![CDATA[### Output2 ###
+  <testcase name="example5" classname="ui.demo3" time="0.001">
+    <system-out><![CDATA[### Output5 ###
 ]]></system-out>
   </testcase>
-  <testcase name="example3" classname="ui.demo2Test" time="0">
-    <system-out><![CDATA[### Output3 ###
-]]></system-out>
-  </testcase>
-  <testcase name="example4" classname="ui.demo2Test" time="0">
-    <system-out><![CDATA[### Output4 ###
+  <testcase name="example6" classname="ui.demo3" time="0">
+    <system-out><![CDATA[#### Output6 ####
 ]]></system-out>
   </testcase>
 </testsuite>

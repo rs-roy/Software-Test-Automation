@@ -1,0 +1,14 @@
+12:32:26 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:32:26 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+12:32:26 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+12:32:26 [main] INFO  DemoPaymentCode.samplePayment - An info message
+12:32:26 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:32:26 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+12:32:26 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+12:40:54 [main] INFO  DemoPaymentCode.samplePayment - An info message
+12:40:54 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:40:54 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+12:40:54 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+12:40:54 [main] INFO  DemoPaymentCode.samplePayment - An info message
+12:40:54 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:40:54 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment

@@ -1,0 +1,10 @@
+13:14:29:090 [main] ERROR DemoCode.Log4jInLogFile - An error in Log4jInLogFile
+13:14:29:093 [main] FATAL DemoCode.Log4jInLogFile - A fatal error
+13:14:33:322 [main] INFO  DemoPaymentCode.samplePayment - An info message
+13:14:33:324 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+13:14:33:324 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+13:14:33:325 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+13:14:33:325 [main] INFO  DemoPaymentCode.samplePayment - An info message
+13:14:33:325 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+13:14:33:325 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+13:14:33:325 [main] FATAL DemoPaymentCode.samplePayment - A fatal error

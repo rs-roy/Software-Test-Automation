@@ -1,0 +1,14 @@
+12:43:15:734 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:43:15:739 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+12:43:15:739 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+12:43:36:696 [main] ERROR DemoCode.Log4jInLogFile - An error in Log4jInLogFile
+12:43:36:698 [main] FATAL DemoCode.Log4jInLogFile - A fatal error
+12:44:56:676 [main] INFO  DemoPaymentCode.samplePayment - An info message
+12:44:56:678 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:44:56:678 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+12:44:56:678 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+12:44:56:678 [main] INFO  DemoPaymentCode.samplePayment - An info message
+12:44:56:679 [main] WARN  DemoPaymentCode.samplePayment - A warning message
+12:44:56:679 [main] ERROR DemoPaymentCode.samplePayment - An error in Sample Payment
+12:44:56:679 [main] FATAL DemoPaymentCode.samplePayment - A fatal error
+12:50:20:707 [main] ERROR DemoCode.Log4jInLogFile - An error in Log4jInLogFile
